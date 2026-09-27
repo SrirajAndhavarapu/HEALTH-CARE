@@ -1,0 +1,6 @@
+{
+  "name": "MedQueue - Hospital Auto-Token & Live Tracking System",
+  "description": "Hospital OPD auto-generated token system with live queue tracking, automated regional language SMS alerts, and voice call dispatch.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

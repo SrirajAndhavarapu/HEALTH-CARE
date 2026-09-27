@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* High Contrast Accessibility Mode for visually impaired clinic patients */
+.high-contrast {
+  --bg-primary: #000000;
+  --bg-surface: #0a0a0a;
+  --text-primary: #ffffff;
+  --text-accent: #facc15; /* High-vis yellow */
+  --border-high: #facc15;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.high-contrast * {
+  border-color: rgba(250, 204, 21, 0.4);
+}
+
+.high-contrast .bg-white,
+.high-contrast .bg-slate-50,
+.high-contrast .bg-slate-100,
+.high-contrast .bg-slate-800,
+.high-contrast .bg-slate-900,
+.high-contrast .bg-slate-950 {
+  background-color: #000000 !important;
+  border-color: #facc15 !important;
+  color: #ffffff !important;
+}
+
+.high-contrast .text-slate-400,
+.high-contrast .text-slate-500,
+.high-contrast .text-slate-600,
+.high-contrast .text-slate-700 {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+.high-contrast .text-slate-900,
+.high-contrast .text-slate-800 {
+  color: #facc15 !important;
+}
+
+.high-contrast button {
+  border-width: 2px !important;
+  border-color: #facc15 !important;
+  font-weight: 800 !important;
+}
+
+.high-contrast .bg-emerald-600,
+.high-contrast .bg-emerald-500,
+.high-contrast .bg-teal-600 {
+  background-color: #facc15 !important;
+  color: #000000 !important;
+  border-color: #ffffff !important;
+}
+
+.high-contrast .text-emerald-600,
+.high-contrast .text-emerald-500,
+.high-contrast .text-emerald-400 {
+  color: #facc15 !important;
+  font-weight: 800 !important;
+}
+
+.high-contrast input,
+.high-contrast select,
+.high-contrast textarea {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #facc15 !important;
+}
+
+.high-contrast input::placeholder,
+.high-contrast textarea::placeholder {
+  color: #a3a3a3 !important;
+}
